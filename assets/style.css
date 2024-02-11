@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    width: auto;
+    background-color: #6C655D;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -7,6 +12,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 1160px;
+    height: auto;
+    background-color: white;
     border: green 2px solid;
 }
 
@@ -18,17 +25,18 @@ body{
     align-items: start;
 }
 
-a li{
+li a{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 100px;
     text-decoration: none;
+    padding-top: 0px;
 
 }
 
-a li:hover{
+li a:hover{
     color: white;
     background-color: #662f32;
 }
@@ -42,17 +50,28 @@ a{
 }
 h1{
     font-family: "Monserrat", sans-serif;
-    font-optical-sizing: auto;
     display: flex;
     justify-content: center;
     font-size: 6em;
 }
 
 h2{
+    font-family: "Monserrat", sans-serif;
     background-color: #662f32;
     color: white;
     text-wrap: nowrap;
+    align-self: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top: 0px;
 
+
+}
+
+h4{
+    font-family: "Monserrat", sans-serif;
+    color: #662f32;
+    font-weight: bold;
 }
 
 #home{
@@ -95,28 +114,56 @@ h2{
 
 
 
-article{
+.ligne1{
+    
+    background-color: #6C655D;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
     border: solid green 2px;
+    margin-top: 25px;
+    flex-basis: 250px;
 
 
+}
+
+.ligne2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 250px;
 }
 
 #first{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: #6C655D;
+    justify-content: space-evenly;
+    color: white;
 }
 
 #second{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
-#plus{
-    
+.btn_plus{
+    align-self: end;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 1160px;
+    border-top: black solid 1px;
+}
+
+li{
+    align-items: start;
+}
+
+.read_btn{
+    background-color: #6C655D;
 }
