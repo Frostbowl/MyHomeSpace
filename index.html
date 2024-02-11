@@ -11,97 +11,121 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <a href="#"><li>HOME</li></a>
-                <a href="#"><li>ABOUT US</li></a>
-                <a href="#"><li>PRODUCTS</li></a>
-                <a href="#"><li>SERVICE</li></a>
-                <a href="#"><li>CONTACT</li></a>
+            <ul id="list">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="#">SERVICE</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>           
+
             </ul>
         </nav>
-        <h1>My<span>Home</span>Space</h1>
+        <h1>My<span id="home">Home</span>Space</h1>
     </header>
     
     <main>
 
-        <div id="slide">
-            <input type="image" name="car1">
-            <img src="./assets/img/carousel/carousel-1.jpg" alt="Une première image de déco d'interieur">
-            <input type="image" name="car2">
-            <img src="./assets/img/carousel/carousel-2.jpg" alt="Une seconde image de déco d'interieur">
-            <input type="image" name="car3">
-            <img src="./assets/img/carousel/carousel-3.jpg" alt="Une troisième image de déco d'interieur">
-        </div>
+        <div class="slide"> <!-- Caroussel --> </div>
 
         <div id="first">
-            <article>
+
+            <article class="ligne1">
                 <h2>LAST WORKS</h2>
-                <img src="./assets/img/pic1.jpg" alt="La photo d'un Salon">
+
+                <img class="first__img" src="./assets/img/pic1.jpg" alt="La photo d'un Salon">
                 <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
                     rerum officia, nostrum deserunt nobis saepe repellendus commodi.
                 </p>
-                <a href="#" target="_blank" rel="service"><img src="./assets/img/plus_btn.png" alt="Une image d'un logo +"></a>
+                <a class="btn_plus" href="#" target="_blank" rel="service"><img src="./assets/img/plus_btn.png" alt="Une image d'un logo +"></a>
             </article>
-            <article>
+
+            <article class="ligne1">
                 <h2>PRODUCTS</h2>
-                <img src="./assets/img/pic2.jpg" alt="Une seconde photo d'un salon">
+                <img class="first__img" src="./assets/img/pic2.jpg" alt="Une seconde photo d'un salon">
                 <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
                     rerum officia, nostrum deserunt nobis saepe repellendus commodi.
                 </p>
-                <a href="#" target="_blank" rel="service"><img src="./assets/img/plus_btn.png" alt="Une image d'un logo +"></a>
+                <a class="btn_plus" href="#" target="_blank" rel="service"><img src="./assets/img/plus_btn.png" alt="Une image d'un logo +"></a>
             </article>
-            <article>
+
+            <article class="ligne1">
                 <h2>SERVICE</h2>
-                <img src="./assets/img/pic3.jpg" alt="Une troisième photo d'un salon">
+                <img class="first__img" src="./assets/img/pic3.jpg" alt="Une troisième photo d'un salon">
                 <p>Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
-                    rerum officia, nostrum deserunt nobis saepe repellendus commodi.
+                    rerum officia, nostrum deserunt nobis saepe repellendus commodi.        
                 </p>
-                <a href="#" target="_blank" rel="service"><img src="./assets/img/plus_btn.png" alt="Une image d'un logo +"></a>
+                <a class="btn_plus" href="#" target="_blank" rel="service"><img src="./assets/img/plus_btn.png" alt="Une image d'un logo +"></a>
             </article>
+
         </div>
 
         <div id="second">
-            <article>
-                <h2>Tesimonials</h2>
+
+            <article class="ligne2">
+
+                <h3>Tesimonials</h3>
+
                 <ul>
                     <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum</li>
-                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod</li>
-                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum dolor sit amet consectetur non culpa est repellendus</li>
-                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem Ipsum dolor sit amet, consectetur adipisicing elit. Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
+                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Debitis quod
+                    </li>
+                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum dolor sit amet consectetur 
+                        non culpa est repellendus
+                    </li>
+                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem Ipsum dolor sit amet, consectetur 
+                        adipisicing elit. Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
                         rerum officia, nostrum deserunt nobis saepe repellendus commodi.
                     </li>
-                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod</li>
+                    <li><img src="./assets/img/arrow.png" alt="Une flèche vers la gauche">Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit. Debitis quod
+                    </li>
                 </ul>
+
             </article>
-            <article>
-                <h2>Premium services</h2>
-                <h3>lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+
+            <article class="ligne2">
+                <h3>Premium services</h3>
+                <h4>lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem Ipsum dolor sit amet, consectetur adipisicing elit.
                     Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
                     rerum officia, nostrum deserunt nobis saepe repellendus commodi. 
                 </p>
+                <button>Read More</button>
             </article>
-            <label id="read" for="read"></label>
-            <a href="#" target="_blank" rel="Services"><input type="button" value="Read More"></a>
-            <article>
-                <h2>About us</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem Ipsum dolor sit amet, consectetur adipisicing elit.
+            
+            <article class="ligne2">
+                <h3>About us</h3>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem Ipsum dolor sit amet, consectetur adipisicing elit.
                     Enime error a ducimus at. Et ipsum dolor dicta, eos.
-                </h3>
+                </h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem Ipsum dolor sit amet, consectetur adipisicing elit.
                     Enime error a ducimus at. Et ipsum dolor dicta, eos, distinction
                     rerum officia, nostrum deserunt nobis saepe repellendus commodi.
                 </p>
-                <label id="read" for="read"></label>
-                <a href="#" target="_blank" rel="Services"><input type="button" value="Read More"></a>
+                <button>Read More</button>
             </article>
+
         </div>
+
     </main>
 
     <footer>
         <p>Design by Ispace</p>
-        <div>
-            <a href="#" target="_blank" rel="facebook"><img src="./assets/img/reseaux.png" alt="Logo de différents réseaux sociaux"></a>
+        <div class="reseau">
+            <a href="#" target="_blank" id="facebook"></a>
+            <a href="#" target="_blank" id="twitter"></a>
+            <a href="#" target="_blank" id="google"></a>
         </div>
     </footer>
 
