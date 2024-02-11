@@ -14,7 +14,6 @@ body{
     width: 1160px;
     height: auto;
     background-color: white;
-    border: green 2px solid;
 }
 
 #list{
@@ -26,6 +25,7 @@ body{
 }
 
 li a{
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,6 @@ h2{
     font-family: "Monserrat", sans-serif;
     background-color: #662f32;
     color: white;
-    text-wrap: nowrap;
     align-self: center;
     padding-right: 60px;
     padding-left: 60px;
@@ -121,7 +120,6 @@ h4{
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    border: solid green 2px;
     margin-top: 25px;
     flex-basis: 250px;
 
@@ -164,6 +162,41 @@ li{
     align-items: start;
 }
 
-.read_btn{
+button{
+    border: solid 1px #6C655D;
+    color: white;
     background-color: #6C655D;
+    padding-bottom: 10px;
 }
+
+.reseau{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 950px;
+    align-items: center;
+}
+
+#facebook, #twitter, #google{
+    width: 32px;
+    height: 32px;
+}
+
+#facebook{
+    background-image: url("img/reseaux.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+#twitter{
+    background-image: url("img/reseaux.png");
+    background-position: -32px 0px;
+    background-repeat: no-repeat;
+}
+#google{
+    background-image: url("img/reseaux.png");
+    background-position: -64px 0px;
+    background-repeat: no-repeat;
+}
+
+
